@@ -1,6 +1,6 @@
 # Hapbam-G: Getting Started:
 
-### User Guide:
+### General Usage:
 
 Input Format: 
 ```
