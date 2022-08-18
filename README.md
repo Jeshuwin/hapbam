@@ -24,3 +24,6 @@ Frequency Calculation:
 ```python
 (sum_of_mismatches)/(query_sequence_length - soft_clip)
 ```
+
+### Overview:
+Hapbam-G parses through the CIGAR string in .bam files generated from <a href="https://github.com/fenderglass/hapdup">hapdup</a> assemblies. As <a href="https://github.com/fenderglass/hapdup">hapdup</a> does not achieve chromosomal-level phasing, and the contigs in one file might not be in sync, Hapbam-G is a tool that determine the precision of the hapdup assemblies. Aligning each one of the phased reads and mapping the reads to each diploid reference we can determine whether the reads belong to either maternal or paternal chromosome. 
