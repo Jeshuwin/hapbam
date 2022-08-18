@@ -15,5 +15,5 @@ Flags:
 Frequency Calculation:
 
 ```python
-sum of mismatches/(query sequence length - soft clip)
+(sum_of_mismatches)/(query_sequence_length - soft_clip)
 ```
