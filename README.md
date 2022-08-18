@@ -1,7 +1,9 @@
 # Hapbam-G:
 
+A tool that uses 
+
 ### Input:
-The input for Hapbam-G should be 4 .bam files. Using <a href="https://github.com/fenderglass/hapdup">hapdup</a> two phased .fasta files should be mapped to a diploid reference sequence using <a href="https://github.com/lh3/minimap2">minimap2</a>. The output of the sequence alignment map format files should then be converted to .bam using <a href="https://github.com/samtools/samtools">samtools</a>. 
+The input for Hapbam-G should be 4 .bam files. Using <a href="https://github.com/fenderglass/hapdup">hapdup</a> two phased .fasta files should be mapped to a diploid reference sequence using <a href="https://github.com/lh3/minimap2">minimap2</a>. The output of the sequence alignment map format files should then be converted to .bam using <a href="https://github.com/samtools/samtools">samtools</a>. When generating minimap files, use the --eqx flag to distinguish between mismatches and matches in the alignment file. 
 
 <img src="https://i.postimg.cc/kXkYFvTq/Hapdup-Phased-to-Ref-1.jpg" alt="mapping" style="width:500px;height:auto;">
 
