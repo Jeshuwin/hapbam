@@ -1,3 +1,8 @@
 # Hapbam-G: Getting Started:
 
 ### User Guide:
+
+Input Format: 
+|Maternal Phased 1.bam||Maternal Phased 2.bam||Paternal Phased 1.bam||Paternal Phased 2|.bam |-g| |-flag|
+
+Flags: -g: Generates a .csv file that you can use for a graphing comparison of each phaseblock.
