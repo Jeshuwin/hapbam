@@ -1,3 +1,3 @@
 ### Hapbam-G: Getting Started:
 
-#User Guide:
+##User Guide:
